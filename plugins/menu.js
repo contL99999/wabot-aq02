@@ -54,10 +54,7 @@ const defaultMenu = {
 ╭═══ *〘 Thanks To 〙*
 ║ ┅ ๑————————————๑
 ║┊
-║┊ ➥ _Nurutomo_
-║┊ ➥ _Bintangp02_
-║┊ ➥ _Unx21_
-║┊ ➥ _Dan Kawan-kawan_
+║┊ ➥ _Ki Samaــ
 ╰═ ┅ ═══════
 `.trimStart(),
   header: '╭═══ *〘 %category 〙*\n║ ┅ ๑————————————๑',
