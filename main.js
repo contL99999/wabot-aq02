@@ -58,7 +58,7 @@ if (opts['server']) require('./server')(global.conn, PORT)
 conn.connectOptions.maxQueryResponseTime = 60_000
 if (opts['test']) {
   conn.user = {
-    jid: '2219191@s.whatsapp.net',
+    jid: '@s.whatsapp.net',
     name: 'test',
     phone: {}
   }
@@ -118,8 +118,8 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject'
-  conn.bye = 'Selamat tinggal @user!'
+  conn.welcome = 'Hai, @user!\nنورتنا في جروبنا المتواضع @subject'
+  conn.bye = 'برا الجروب يا ڪلب @user!'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.handler = handler.handler
